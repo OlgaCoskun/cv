@@ -19,30 +19,36 @@
   <!-- Иконки -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <script type="text/javascript">
+      function toggle_show(id) {
+          document.getElementById(id).style.display = document.getElementById(id).style.display == 'none' ? 'block' : 'none';
+      }
+  </script>
+
 </head>
 <body>
 
 <div class="container">
   <div class="row">
     <div class="twelve columns">
-      <h1>RUBY ON RAILS DEVELOPER</h1>
+      <h1>RUBY ON RAILS DEVELOPER(remote)</h1>
     </div>
   </div>
 </div>
 
-<div class="container">
+<div class="container contacts">
   <div class="row">
     <div class="seven columns">
       <p><span>Name:</span> Olga Coskun</p>
-      <p><span>Address:</span> Istanbul, Turkey</p>
-      <p><span>Phone number:</span> +90-507-882-02-03</p>
-      <p><span>Email:</span> ovin999@gmail.com</p>
       <p><span>Nationality:</span> Russian</p>
+      <p><span>Address:</span> Istanbul, Turkey</p>
+      <p><span><i class="fa fa-phone" aria-hidden="true"></i></span> +90-507-882-02-03</p>
+      <p><span><i class="fa fa-envelope" aria-hidden="true"></i></span> ovin999@gmail.com</p>
     </div>
     <div class="five columns">
       <img src="https://res.cloudinary.com/cloudolga/image/upload/v1530865447/min_me_ruby_rxcb6q.jpg" alt="photo">
-      <p>Code-portfolio:</p>
-      <p><i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/OlgaCoskun">https://github.com/OlgaCoskun</a>
+      <p><i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/OlgaCoskun" target="blank">OlgaCoskun</a>
       </p>
     </div>
   </div>
@@ -51,8 +57,34 @@
 <div class="container">
   <div class="row">
     <div class="twelve columns">
-      <h5>OBJECTIVE:</h5>
-      <p>I would like to work like Ruby on Rails developer (back end) remote.</p><br>
+      <h5>ABOUT:</h5>
+      <p>I am new Ruby on Rails developer. I know very well Ruby and also Ruby on Rails.
+        I prefer to think about code style and I like refactoring. Because it makes me feel that my code going
+        to be better and better. Also I think about what are good things I can make for progect and how I can improve
+        it.</p>
+
+      <p> I am very intrested to work with good and smart team. Because I can learn something with my team.
+        I want to learn new things with projects. I am intrested about building new application or discovering
+        new technologies. I want to make my the best!
+      </p><br>
+
+      <p><span>Some rails apps I've been working on:</span></p>
+      <p></p>
+      <p>
+        <a href="https://github.com/OlgaCoskun/game" target="blank">"Who wants to be a millionaire"</a>
+        - One the most popular TV game in the world.
+      </p>
+
+      <p>
+        <a href="https://github.com/OlgaCoskun/kofte" target="blank">The wonderfull application "Kofte".</a>
+        Which will help you collect all your friends for picnick or any meeting. You can add friends there, add
+        photos and post comments. Also you can see exactly the place, date and time where will be meeting.
+      </p>
+
+      <p>
+        <a href="https://github.com/OlgaCoskun/askme" target="blank">The one intresting application "Askme"</a>
+        The application for teenagers and any people  who likes to ask questions and get answers from others via Internet.
+      </p>
     </div>
   </div>
 </div>
@@ -60,7 +92,7 @@
 <div class="container">
   <div class="row">
     <div class="twelve columns">
-      <h5>COMPUTER SKILLS:</h5>
+      <h5>SKILLS:</h5>
       <p><span>Ruby / Ruby on Rails:</span> MVC, OOP, REST, Code Style, RSpec</p>
       <p><span>Front end:</span> HTML5, CSS3, Bootstrap 4, Bootstrap 5, Skeleton, JavaScript, jQuery</p>
       <p><span>SQL:</span> PostgreSQL, SQLite</p>
@@ -168,179 +200,207 @@
   </div>
 </div>
 
+
 <div class="container">
   <div class="row">
     <div class="twelve columns">
-      <h5>PROFESSIONAL CAREER:</h5>
-    </div>
-  </div>
+      <div style="cursor:pointer;" onClick="toggle_show('work')">
+        <h5 class="link">PROFESSIONAL CAREER:</h5>
+        <div id="work" style="display: none">
 
-  <div class="row work">
-    <div class="four columns">
-      <p><em>Ruby on Rails developer</em></p>
-      <p><span>January 2017 - present</span></p>
-      <p>Huawei Technologies. Istanbul, Turkey</p>
-    </div>
-    <div class="eight columns">
-      <p><i class="fa fa-check" aria-hidden="true"> Ruby on Rails code</i></p>
-    </div>
-  </div>
+          <div class="row work">
+            <div class="four columns">
+              <p><em>Ruby on Rails developer</em></p>
+              <p><span>January 2017 - present</span></p>
+              <p>Huawei Technologies. Istanbul, Turkey</p>
+            </div>
+            <div class="eight columns">
+              <p><i class="fa fa-check" aria-hidden="true"> Ruby on Rails code</i></p>
+            </div>
+          </div>
 
-  <div class="row work">
-    <div class="four columns">
-      <p><em>Consultant of Axapta and Navision</em></p>
-      <p><span>May 2012 - January 2014.</span></p>
-      <p>Columbus IT Partner Russia. Moscow, Russia.</p>
-    </div>
-    <div class="eight columns">
-      <p><i class="fa fa-check" aria-hidden="true"></i> NAV 5 - support users of Company "Royal Canin"(The food for dogs
-        and
-        cats): Finance, logistic, warehouse, user's</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Settings, create user's manuals, teaching</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> AX 2009 - support users of food-retail for 2 supermarkets
-        "SPAR",
-        "Partner": logistic, warehouse, user's settings, create</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> User's manuals, technical tasks for programming, AOT, testing
-        jobs.</p>
-    </div>
-  </div>
+          <div class="row work">
+            <div class="four columns">
+              <p><em>Consultant of Axapta and Navision</em></p>
+              <p><span>May 2012 - January 2014.</span></p>
+              <p>Columbus IT Partner Russia. Moscow, Russia.</p>
+            </div>
+            <div class="eight columns">
+              <p><i class="fa fa-check" aria-hidden="true"></i> NAV 5 - support users of Company "Royal Canin"(The food
+                for dogs
+                and
+                cats): Finance, logistic, warehouse, user's</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Settings, create user's manuals, teaching</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> AX 2009 - support users of food-retail for 2
+                supermarkets
+                "SPAR",
+                "Partner": logistic, warehouse, user's settings, create</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> User's manuals, technical tasks for programming, AOT,
+                testing
+                jobs.</p>
+            </div>
+          </div>
 
-  <div class="row work">
-    <div class="four columns">
-      <p><em>Consultant of Axapta</em></p>
-      <p><span>December 2011 - May 2012.</span></p>
-      <p>Impact-soft. Moscow, Russia.</p>
-    </div>
-    <div class="eight columns">
-      <p><i class="fa fa-check" aria-hidden="true"></i> Assistance in the technical specifications Development</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Customer training</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Setup program for the client</p>
-    </div>
-  </div>
+          <div class="row work">
+            <div class="four columns">
+              <p><em>Consultant of Navision</em></p>
+              <p><span>December 2011 - May 2012.</span></p>
+              <p>Impact-soft. Moscow, Russia.</p>
+            </div>
+            <div class="eight columns">
+              <p><i class="fa fa-check" aria-hidden="true"></i> Assistance in the technical specifications Development
+              </p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Customer training</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Setup program for the client</p>
+            </div>
+          </div>
 
-  <div class="row work">
-    <div class="four columns">
-      <p><em>Consultant of Navision</em></p>
-      <p><span>May 2008 - December 2011.</span></p>
-      <p>SIM-Yaroslavl -(official mark MAZDA, RENAUTL, SUZUKI, HYUNDAI). Yaroslavl, Russia.</p>
-    </div>
-    <div class="eight columns">
-      <p><i class="fa fa-check" aria-hidden="true"></i> Administration of MS Navision</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Setting up User Rights in the operating environment and
-        specialized
-        software</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Staff training and implementation of control measures</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Maintain continuous operation of servers and workstations</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Manage contracts for telecommunications network, the Internet
-        and
-        printers</p>
-    </div>
-  </div>
+          <div class="row work">
+            <div class="four columns">
+              <p><em>Consultant of Navision</em></p>
+              <p><span>May 2008 - December 2011.</span></p>
+              <p>SIM-Yaroslavl -(official mark MAZDA, RENAUTL, SUZUKI, HYUNDAI). Yaroslavl, Russia.</p>
+            </div>
+            <div class="eight columns">
+              <p><i class="fa fa-check" aria-hidden="true"></i> Administration of MS Navision</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Setting up User Rights in the operating environment and
+                specialized
+                software</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Staff training and implementation of control measures
+              </p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Maintain continuous operation of servers and
+                workstations</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Manage contracts for telecommunications network, the
+                Internet
+                and
+                printers</p>
+            </div>
+          </div>
 
-  <div class="row work">
-    <div class="four columns">
-      <p><em> Finance Manager</em></p>
-      <p><span>January 2007 - January 2008.</span></p>
-      <p>Czech Insurance Company, Yaroslavl, Russia.</p>
-    </div>
-    <div class="eight columns">
-      <p><i class="fa fa-check" aria-hidden="true"></i> Provide financial support nat. persons</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Life Insurance</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Advising on Pensions</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Medical Insurance</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Children and Family Insuranc.</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Address issues related to the protection and promotion of
-        family.</p>
-    </div>
-  </div>
+          <div class="row work">
+            <div class="four columns">
+              <p><em> Finance Manager</em></p>
+              <p><span>January 2007 - January 2008.</span></p>
+              <p>Czech Insurance Company, Yaroslavl, Russia.</p>
+            </div>
+            <div class="eight columns">
+              <p><i class="fa fa-check" aria-hidden="true"></i> Provide financial support nat. persons</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Life Insurance</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Advising on Pensions</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Medical Insurance</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Children and Family Insuranc.</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Address issues related to the protection and promotion
+                of
+                family.</p>
+            </div>
+          </div>
 
-  <div class="row work">
-    <div class="four columns">
-      <p><em>Loan officer</em></p>
-      <p><span>January 2005 - January 2007.</span></p>
-      <p>Home Credit and Finance bank. Kostroma, Russia.</p>
-    </div>
-    <div class="eight columns">
-      <p><i class="fa fa-check" aria-hidden="true"></i> Consumer lending nat. persons</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Advise clients on banking products</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Introduce banking services</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Arrange loans for goods, credit or cash</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Plastic cards</p>
-    </div>
-  </div>
+          <div class="row work">
+            <div class="four columns">
+              <p><em>Loan officer</em></p>
+              <p><span>January 2005 - January 2007.</span></p>
+              <p>Home Credit and Finance bank. Kostroma, Russia.</p>
+            </div>
+            <div class="eight columns">
+              <p><i class="fa fa-check" aria-hidden="true"></i> Consumer lending nat. persons</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Advise clients on banking products</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Introduce banking services</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Arrange loans for goods, credit or cash</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Plastic cards</p>
+            </div>
+          </div>
 
-  <div class="row work">
-    <div class="four columns">
-      <p><em>Shop manager</em></p>
-      <p><span>January 2004 - January 2005.</span></p>
-      <p>Computer's shop. Kostroma, Russia.</p>
-    </div>
-    <div class="eight columns">
-      <p><i class="fa fa-check" aria-hidden="true"></i> Advise clients on the purchase computer and office technology
-      </p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Maintain documentation of sales; work with databases</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Negotiate with suppliers for the supply of items</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Credits from banks</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Build/set up new computers, install operating systems/software;
-        warranty
-        service/repair.</p>
-      <p><i class="fa fa-check" aria-hidden="true"></i> Administration gaming and Internet servers</p>
-    </div>
+          <div class="row work">
+            <div class="four columns">
+              <p><em>Shop manager</em></p>
+              <p><span>January 2004 - January 2005.</span></p>
+              <p>Computer's shop. Kostroma, Russia.</p>
+            </div>
+            <div class="eight columns">
+              <p><i class="fa fa-check" aria-hidden="true"></i> Advise clients on the purchase computer and office
+                technology
+              </p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Maintain documentation of sales; work with databases</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Negotiate with suppliers for the supply of items</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Credits from banks</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Build/set up new computers, install operating
+                systems/software;
+                warranty
+                service/repair.</p>
+              <p><i class="fa fa-check" aria-hidden="true"></i> Administration gaming and Internet servers</p>
+            </div>
 
-    <div class="row work">
-      <div class="four columns">
-        <p><em>Communications Dept. Manager</em></p>
-        <p><span>January 2003 - January 2004.</span></p>
-        <p>Internet and phone company. Kostroma, Russia.</p>
-      </div>
-      <div class="eight columns">
-        <p><i class="fa fa-check" aria-hidden="true"></i> Prepare contracts for communication services</p>
-        <p><i class="fa fa-check" aria-hidden="true"></i> Advise clients on available services</p>
-        <p><i class="fa fa-check" aria-hidden="true"></i> Advise on Internet & IP-telephony settings</p>
-        <p><i class="fa fa-check" aria-hidden="true"></i> Maintain clients & communication services database</p>
-        <p><i class="fa fa-check" aria-hidden="true"></i> Interact with government organizations</p><br>
+            <div class="row work">
+              <div class="four columns">
+                <p><em>Communications Dept. Manager</em></p>
+                <p><span>January 2003 - January 2004.</span></p>
+                <p>Internet and phone company. Kostroma, Russia.</p>
+              </div>
+              <div class="eight columns">
+                <p><i class="fa fa-check" aria-hidden="true"></i> Prepare contracts for communication services</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Advise clients on available services</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Advise on Internet & IP-telephony settings</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Maintain clients & communication services database</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i> Interact with government organizations</p><br>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <h5>EDUCATION:</h5>
-      </div>
-    </div>
-    <div class="row">
-      <div class="twelve columns">
-        <p>Kostroma State Agricultural, 1999 – 2004.</p>
-        <p>Academy, Faculty of Economics.</p>
-        <p>Obtained diploma of higher education in Management(Master Degree).</p><br>
-      </div>
-    </div>
-  </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <h5>LANGUAGE SKILLS:</h5>
-        <p>Russian - native</p>
-        <p>English - Intermediate(I can speak and understand, read books)</p>
-        <p>Turkish - B1.</p><br>
-      </div>
-    </div>
-  </div>
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="twelve columns">-->
+<!--<h5>PROFESSIONAL CAREER:</h5>-->
+<!--</div>-->
+<!--</div>-->
 
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <h5>CULTURAL INTERESTS AND PHYSICAL RECREATION</h5>
-        <p>Working-out</p>
-        <p>Learning languages</p>
-        <p>Swimming, bicycle</p>
-        <br>
-      </div>
+<!---->
+
+
+<!--</div>-->
+
+<div class="container">
+  <div class="row">
+    <div class="twelve columns">
+      <h5>EDUCATION:</h5>
     </div>
   </div>
+  <div class="row">
+    <div class="twelve columns">
+      <p>Kostroma State Agricultural, 1999 – 2004.</p>
+      <p>Academy, Faculty of Economics.</p>
+      <p>Obtained diploma of higher education in Management(Master Degree).</p><br>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="twelve columns">
+      <h5>LANGUAGE SKILLS:</h5>
+      <p>Russian - native</p>
+      <p>English - Intermediate(I can speak and understand, read books)</p>
+      <p>Turkish - B1.</p><br>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="twelve columns">
+      <h5>CULTURAL INTERESTS AND PHYSICAL RECREATION</h5>
+      <p>Working-out</p>
+      <p>Learning languages</p>
+      <p>Swimming, bicycle</p>
+      <br>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
